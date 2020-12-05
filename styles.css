@@ -1,0 +1,96 @@
+/* @import  */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  /* font family */
+  font-weight: 400;
+  color: #333;
+  align-items: center;
+  justify-content: center;
+  height: 100 vh;
+}
+
+/* ELEMENTS */
+
+/* Title */
+.title {
+  text-align: center;
+  margin: 7.5%;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+.title h1 {
+  margin: 2%;
+  font-weight: 300;
+  font-size: 1.7rem;
+}
+
+.title h3 {
+  letter-spacing: 1px;
+  margin: 1%;
+  font-size: 1.8rem;
+  font-weight: 200;
+}
+
+/* Form */
+.servings-amount {
+  margin: 10%;
+}
+
+.servings {
+  font-size: 1.5rem;
+}
+
+#number-servings {
+  width: 30px;
+}
+
+.submit {
+  margin: 2% auto 2% 5%;
+}
+
+/* Ingredients */
+.recipe {
+  margin: 5%;
+}
+
+.ingredients {
+  margin: 2%;
+}
+
+.ingredients-name {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.ingredients-amount {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* PREPARATION */
+.preparation {
+  margin: 2% 8%;
+}
+
+.preparation-title {
+  margin: 2% auto;
+}
+
+footer {
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
