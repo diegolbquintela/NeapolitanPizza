@@ -1,4 +1,5 @@
-/* @import  */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Noto+Serif&display=swap');
+/* collor pallette: https://colorhunt.co/palette/169018 */
 
 * {
   margin: 0;
@@ -17,8 +18,22 @@ body {
   align-items: center;
   justify-content: center;
   height: 100 vh;
+  /* background-color: #b0eacd;
+  color: #f9fcfb; */
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Noto Serif', serif;
+}
+
+p {
+  font-family: 'DM Sans', sans-serif;
+}
 /* ELEMENTS */
 
 /* Title */
@@ -42,9 +57,10 @@ body {
   font-weight: 200;
 }
 
-/* Form */
-.servings-amount {
-  margin: 10%;
+/* Table */
+.first-block-title {
+  margin: 7.5%;
+  text-align: center;
 }
 
 .servings {
@@ -56,40 +72,52 @@ body {
 }
 
 .submit {
-  margin: 2% auto 2% 5%;
+  margin: 2% 40% 2% 40%;
 }
 
+/* TO BE FIXED FOR DESKTOP */
 /* Ingredients */
-.recipe {
-  margin: 5%;
-}
+/* .left-side,
+.right-side {
+  height: 35vh;
+  width: 100%;
+} */
 
-.ingredients {
-  margin: 2%;
-}
+/* @media screen and (min-width: 768px) {
+  .left-side,
+  .right-side {
+    height: 100vh;
+  }
+} */
+/* ///////////////////////////////////////// */
 
 .ingredients-name {
+  white-space: nowrap;
+  /* margin: 10% */
   font-size: 1.2rem;
   font-weight: 400;
+}
+
+.ingredients-block {
+  /* padding-top: 2.5%; */
 }
 
 .ingredients-amount {
   font-size: 1rem;
   font-weight: 500;
+  /* align-items: center; */
+  /* margin-left: 50%%; */
 }
 
 /* PREPARATION */
-.preparation {
-  margin: 2% 8%;
-}
 
 .preparation-title {
-  margin: 2% auto;
+  text-align: center;
 }
 
 footer {
   text-align: center;
-  position: fixed;
+  /* position: fixed; */
   left: 0;
   bottom: 0;
   width: 100%;

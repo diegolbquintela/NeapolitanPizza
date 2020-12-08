@@ -15,6 +15,8 @@
     />
     <!-- CSS -->
     <link rel="stylesheet" href="styles.css" />
+
+    
   </head>
   <body>
     <section class="title">
@@ -22,85 +24,115 @@
       <h3>Convert the ingredients to the respective servings that you wish</h3>
       <br />
     </section>
-    <section>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-6">
-            <form action="" method="get" class="servings" onsubmit="return false">
-              <div class="servings-amount">
-                <label class="servings" for="servings">Servings: </label>
-                <input type="number" id="number-servings" name="servings" />
-                <br />
-            </form>
-                <button class="submit btn btn-outline-success">submit</button>
-              </div>
-          </div>
 
-          <div class="col-6">
-            <div class="row">
-              <div class="recipe">
-                <h2>Ingredients</h2>
+    <div class="container-fluid">
+      <div class="row">
+        <section id="first-block">
+          <div class="col-md-6 no-gutters">
+            <div class="left-side">
+              <h2 class="first-block-title">Ingredients</h2> 
+              <table class="table table-sm">
+                <thead class="thead-dark">
+                  <tr>
+                    
+                    <th scope="col">Ingredients</th>
+                    <th scope="col">Quantities (Metric)</th>
+                    <!-- <th scope="col">Quantities (Imperial)</th> -->
+                  </tr>
+      
+                  <tbody>
+                    <tr>
+                      <th class="ingredients-name">White Flour</th>
+                      <td class="ingredients-amount-0"></td>
+                      <td class="ingredients-amount-00"></td>
+                    
+                    </tr>
+                    <tr>
+                      <th class="ingredients-name">Dry Yeast</th>
+                      <td class="ingredients-amount-1"></td>
+                      <td class="ingredients-amount-01"></td>
+                
+                    </tr>
+                    <tr>
+                      <th class="ingredients-name">Water</th>
+                      <td class="ingredients-amount-2"></td>
+                      <td class="ingredients-amount-02"></td>
+                    
+                    </tr>
+                    <tr>
+                      <th class="ingredients-name">Salt</th>
+                      <td class="ingredients-amount-3"></td>
+                      <td class="ingredients-amount-03"></td>
+                    
+                    </tr>
+                  </tbody>
+                </table>
+      
+                </thead>
+              </table>
+               
+                  <div class="servings-amount">
+                   <form action="" method="get" class="servings" onsubmit="return false">
+                      <label class="servings" for="servings">Servings: </label>
+                      <input type="number" id="number-servings" name="servings" />
+                      <br />
+                    </form>
+                      <button class="submit btn btn-outline-success">submit</button>
+                  </div>
+            </div>
+        </div>
+            
 
-                <div class="ingredients row">
-                  <h4 class="ingredients-name col-6">White Flour</h4>
-                  <h3 class="ingredients-amount-0 ingredients-amount">
-                    750 gr
-                  </h3>
-                </div>
-
-                <div class="ingredients row">
-                  <h4 class="ingredients-name col-6">Dry Yest</h4>
-                  <h3 class="ingredients-amount-1 ingredients-amount">
-                    750 gr
-                  </h3>
-                </div>
-
-                <div class="ingredients row">
-                  <h4 class="ingredients-name col-6">Water</h4>
-                  <h3 class="ingredients-amount-2 ingredients-amount">
-                    750 gr
-                  </h3>
-                </div>
-
-                <div class="ingredients row">
-                  <h4 class="ingredients-name col-6">salt</h4>
-                  <h3 class="ingredients-amount-3 ingredients-amount">
-                    750 gr
-                  </h3>
-                </div>
-
-                <!-- <div class="ingredients row">
-                  <h4 class="ingredients-name col-6">Olive Oil</h4>
-                  <h3 class="ingredients-amount-4 ingredients-amount">
-                    750 gr
-                  </h3>
-                </div> -->
-
-                <br />
-              </div>
+          <div class="col-md-6 no-gutters preparation">
+            <div class="right-side">
+              <h2 class="preparation-title">Dough Preparation</h2>
+              <p class="preparation-procedure">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <p class="preparation-procedure">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <p class="preparation-procedure">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <p class="preparation-procedure">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
             </div>
           </div>
-        </div>
+            
+        </section>
       </div>
+    </div>
 
-      <!-- <section>
-        <div class="preparation">
-          <h2 class="preparation-title">Dough Preparation</h2>
-          <p class="preparation-procedure">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-        </div>
-      </section> -->
-    </section>
     <br />
 
     <footer>Copyright ⓒ 2020. All rights reserved.</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <script src="script.js"></script>
   </body>
 </html>
